@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{4b7f8cb5-677d-4850-944d-9fc269e88e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{c9908ac7-bc63-47c8-b4f5-ed8d9ddea3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collision">
+      <UniqueIdentifier>{d1f44a70-69ea-4077-a04e-5c89771cb66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character">
+      <UniqueIdentifier>{b12d5873-8278-4e36-b175-b80d4964f57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{fbf94585-3456-451f-b6a3-6173542e2f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Particle">
+      <UniqueIdentifier>{7f4ba6e8-db5c-4c16-9c06-7ac14b39f17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Score">
+      <UniqueIdentifier>{cf674eee-c13d-476a-ad56-72ab6dff5aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{b40b42e0-0913-484b-9cc8-93799c2599ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Main">
+      <UniqueIdentifier>{3057f52a-ddea-4ac7-98fb-7ad9880ad527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{3d821379-a96c-4760-88a3-4a77eb9abb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Score\ResultScore">
+      <UniqueIdentifier>{3c7792cc-7c47-43eb-920c-654e5de691ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Result">
+      <UniqueIdentifier>{f2ba1196-fc03-4f17-9b0e-6d655a13f061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{1572f507-1433-49cb-aaff-0bd8c5e354ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DisplayTag">
+      <UniqueIdentifier>{f0446304-3c7d-4968-a8d4-69b6713ea8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect\MoveEffect">
+      <UniqueIdentifier>{22d9ac3e-0798-45d3-bd7b-ceb9ffc3e838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect\HitEffect">
+      <UniqueIdentifier>{46a25cc7-9b3e-4588-a666-675e96ab3ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect\ChargeEffect">
+      <UniqueIdentifier>{55ce2c98-b96a-4cbc-9a94-040ad64062de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fps">
+      <UniqueIdentifier>{da9ae7be-4bfd-4498-8549-9bf2e095f97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{2b85ce68-d16b-4b58-9c03-758de805a66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\FadeManager">
+      <UniqueIdentifier>{34d03e50-ea64-4c40-a5a1-b36c2310308f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\ModelManager">
+      <UniqueIdentifier>{2dc09a37-c78c-47e5-a57c-95f49db88473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{6f376d42-b5d4-4b0f-8980-5770ff16ff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\InformationAI">
+      <UniqueIdentifier>{5b3b3dd8-9e6b-4859-b94e-c77b164923bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Camera">
+      <UniqueIdentifier>{dfaf16a7-dcfa-4ba6-9207-bf6f651ca661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect\ReviveEffect">
+      <UniqueIdentifier>{5d3db1ce-a154-434a-97db-9a82511d1f41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionParticle.cpp">
+      <Filter>ソース ファイル\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>ソース ファイル\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeParticle.cpp">
+      <Filter>ソース ファイル\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayScore.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ISceneChanger.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>ソース ファイル\Scene\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScore.cpp">
+      <Filter>ソース ファイル\Score\ResultScore</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>ソース ファイル\Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeManager.cpp">
+      <Filter>ソース ファイル\Manager\FadeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTag.cpp">
+      <Filter>ソース ファイル\DisplayTag</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveEffect.cpp">
+      <Filter>ソース ファイル\Effect\MoveEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffect.cpp">
+      <Filter>ソース ファイル\Effect\HitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeEffect.cpp">
+      <Filter>ソース ファイル\Effect\ChargeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>ソース ファイル\Manager\ModelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadyTextUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadyTextUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GoTextUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUpUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InformantForAi.cpp">
+      <Filter>ソース ファイル\InformationAI</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>ソース ファイル\Fps</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviveEffect.cpp">
+      <Filter>ソース ファイル\Effect\ReviveEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreAdd.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionParticle.h">
+      <Filter>ソース ファイル\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>ソース ファイル\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeParticle.h">
+      <Filter>ソース ファイル\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayScore.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneChanger.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>ソース ファイル\Scene\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScore.h">
+      <Filter>ソース ファイル\Score\ResultScore</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>ソース ファイル\Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeManager.h">
+      <Filter>ソース ファイル\Manager\FadeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTag.h">
+      <Filter>ソース ファイル\DisplayTag</Filter>
+    </ClInclude>
+    <ClInclude Include="TagStruct.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveEffect.h">
+      <Filter>ソース ファイル\Effect\MoveEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffect.h">
+      <Filter>ソース ファイル\Effect\HitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeEffect.h">
+      <Filter>ソース ファイル\Effect\ChargeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>ソース ファイル\Fps</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>ソース ファイル\Manager\ModelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GoTextUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeUpUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="InformantForAi.h">
+      <Filter>ソース ファイル\InformationAI</Filter>
+    </ClInclude>
+    <ClInclude Include="ReviveEffect.h">
+      <Filter>ソース ファイル\Effect\ReviveEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
